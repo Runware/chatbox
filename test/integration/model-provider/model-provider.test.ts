@@ -57,6 +57,7 @@ const PROVIDER_TEST_MODELS: Record<ModelProvider, ProviderModelInfo[]> = {
     { modelId: 'deepseek-v4-pro', capabilities: ['tool_use', 'reasoning'] },
   ],
   [ModelProviderEnum.SiliconFlow]: [],
+  [ModelProviderEnum.Runware]: [{ modelId: 'openai-gpt-5-4-mini', capabilities: ['tool_use'] }],
   [ModelProviderEnum.VolcEngine]: [],
   [ModelProviderEnum.MistralAI]: [],
   [ModelProviderEnum.LMStudio]: [],
